@@ -12,12 +12,12 @@ $sidebar_enabled = get_post_meta( $post->ID, 'illdy-sidebar-enable', true );
 ?>
 
 <?php get_header(); ?>
-	<div class="container">
+	<div class="pr-page-single container">
 	<div class="row">
 		<?php if ( is_active_sidebar( 'blog-sidebar' ) ) { ?>
-		<div class="col-sm-8">
+		<div class="col-sm-10 col-sm-offset-1">
 			<?php } else { ?>
-			<div class="col-sm-8 col-sm-offset-2">
+			<div class="col-sm-10 col-sm-offset-1">
 				<?php } ?>
 
 				<section id="blog">
@@ -31,14 +31,6 @@ $sidebar_enabled = get_post_meta( $post->ID, 'illdy-sidebar-enable', true );
 					?>
 				</section><!--/#blog-->
 			</div><!--/.col-sm-7-->
-
-			<?php if ( is_active_sidebar( 'blog-sidebar' ) ) { ?>
-				<div class="col-sm-4">
-					<div id="sidebar">
-						<?php dynamic_sidebar( 'blog-sidebar' ); ?>
-					</div>
-				</div>
-			<?php } ?>
 		</div><!--/.row-->
 	</div><!--/.container-->
 <?php get_footer(); ?>

@@ -1,24 +1,3 @@
-/**
- *	01. General
- *	02. Header
- *	03. About
- *	04. Projects
- *	05. Testimonials
- *	06. Services
- *	07. Latest News
- *	08. Counter
- *	09. Team
- *	10. Contact Us
- *	11. Footer
- *	12. Blog
- *	13. Sidebar
- *	14. Markup Format
- *	15. Related Posts
- *	16. Comments
- *  17. Responsive
- *	18. Gallery
- */
-/* 01. General */
 html,
 body {
 	width: 100%;
@@ -239,7 +218,7 @@ a:hover, a:focus {
 	padding-right: 16px;
 	position: relative;
 	margin-bottom: 20px;
-    display: inline-block;
+	display: inline-block;
 }
 
 #header .top-header .header-navigation ul li.menu-item-has-children a:after {
@@ -360,9 +339,9 @@ a:hover, a:focus {
 }
 .row-404 .error-code {
 	font-size: 34px;
-    line-height: 52px;
-    color: #545454;
-    font-weight: 700;
+	line-height: 52px;
+	color: #545454;
+	font-weight: 700;
 }
 .row-404 .content-404 {
 	margin: 40px 0 30px;
@@ -374,11 +353,11 @@ a:hover, a:focus {
 
 #header .bottom-header h1 {
 	margin: 0 0 29px 0;
-    line-height: 84px;
-    font-weight: 700;
-    font-size: 80px;
-    color: #fff;
-    font-family: "Poppins";
+	line-height: 84px;
+	font-weight: 700;
+	font-size: 80px;
+	color: #fff;
+	font-family: "Poppins";
 }
 #header .bottom-header h1 span {
 	word-wrap: break-word;
@@ -390,11 +369,11 @@ a:hover, a:focus {
 
 #header .bottom-header .section-description {
 	line-height: 26px;
-    margin-bottom: 60px;
-    font-size: 16px;
-    color: #fff;
-    font-family: "Lato";
-    font-weight: 400;
+	margin-bottom: 60px;
+	font-size: 16px;
+	color: #fff;
+	font-family: "Lato";
+	font-weight: 400;
 }
 
 #header .bottom-header .header-button-one {
@@ -660,8 +639,8 @@ a:hover, a:focus {
 	border-left: none;
 	color: #fff;
 	font-size: 16px;
-    font-family: "Lato";
-    font-weight: 400;
+	font-family: "Lato";
+	font-weight: 400;
 }
 
 #testimonials .section-content .testimonials-carousel .carousel-testimonial .testimonial-content:after {
@@ -681,8 +660,8 @@ a:hover, a:focus {
 
 #testimonials .section-content .testimonials-carousel .carousel-testimonial .testimonial-meta {
 	width: 100%;
-    color: #fff;
-    font-family: "Poppins";
+	color: #fff;
+	font-family: "Poppins";
 }
 
 #testimonials .section-content .testimonials-carousel .owl-controls {
@@ -773,7 +752,7 @@ a:hover, a:focus {
 }
 #latest-news .section-header h3,
 #latest-news .section-header p {
-    color: #fff;
+	color: #fff;
 }
 
 #latest-news .section-header {
@@ -801,11 +780,11 @@ a:hover, a:focus {
 }
 #latest-news .owl-prev,
 #latest-news .owl-next {
-    position: absolute;
-    top: 50%;
-    font-size: 50px;
-    color: #fff;
-    transform: translateY(-50%);
+	position: absolute;
+	top: 50%;
+	font-size: 50px;
+	color: #fff;
+	transform: translateY(-50%);
 }
 #latest-news .owl-prev {
 	left: -15px;
@@ -829,13 +808,13 @@ a:hover, a:focus {
 
 #latest-news .section-content .post .post-title {
 	width: 100%;
-    padding: 0 30px;
-    color: #5e5e5e;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-    display: block;
+	padding: 0 30px;
+	color: #5e5e5e;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	display: block;
 }
 
 #latest-news .section-content .post .post-title:hover {
@@ -950,14 +929,14 @@ a.button:hover {
 
 #counter .counter-number {
 	width: 100%;
-    display: block;
-    margin-bottom: 10px;
-    line-height: 1;
-    font-weight: 700;
-    font-size: 65px;
-    color: #fff;
-    font-family: "Poppins";
-    line-height: 70px;
+	display: block;
+	margin-bottom: 10px;
+	line-height: 1;
+	font-weight: 700;
+	font-size: 65px;
+	color: #fff;
+	font-family: "Poppins";
+	line-height: 70px;
 }
 
 #counter .counter-description {
@@ -979,104 +958,7 @@ a.button:hover {
 	margin-top: 0;
 }
 
-/* 09. Team */
-#team {
-	width: 100%;
-	padding: 80px 0 100px 0;
-	text-align: center;
-}
 
-#team .section-header {
-	width: 100%;
-	margin-bottom: 85px;
-}
-
-#team .section-content {
-	width: 100%;
-}
-
-#team .section-content .person {
-	width: 100%;
-}
-
-#team .section-content .person .person-image {
-	width: 125px;
-	margin-right: 25px;
-	float: left;
-}
-
-#team .section-content .person .person-image img {
-	max-width: 100%;
-	height: auto;
-	border-radius: 50%;
-}
-
-#team .section-content .person .person-content {
-	text-align: left;
-    width: calc( 100% - 150px );
-    float: right;
-}
-
-#team .section-content .person .person-content h6 {
-	width: 100%;
-	margin: 12px 0 5px 0;
-	color: #5e5e5e;
-}
-
-#team .section-content .person .person-content p {
-	width: 100%;
-	margin: 0 0 10px 0;
-	color: #8c9597;
-	line-height: 20px;
-}
-#team .section-content .person .person-content p.person-position {
-	margin: 0 0 20px 0;
-	line-height: 26px;
-}
-
-#team .section-content .person .person-content .person-content-social {
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}
-
-#team .section-content .person .person-content .person-content-social li {
-	margin-left: 10px;
-	float: left;
-}
-
-#team .section-content .person .person-content .person-content-social li:first-child {
-	margin-left: 0;
-}
-
-#team .section-content .person .person-content .person-content-social li a {
-	width: 25px;
-	height: 25px;
-	line-height: 25px;
-	display: inline-block;
-	border-radius: 50%;
-	font-size: 13px;
-	color: #fff;
-	text-align: center;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-	border: 1px solid;
-}
-
-#team .section-content .person .person-content .person-content-social li a:hover {
-	opacity: 0.9;
-}
-
-#team .widget_illdy_person {
-	margin-top: 40px;
-}
-
-#team .widget_illdy_person:nth-child(1), #team .widget_illdy_person:nth-child(2), #team .widget_illdy_person:nth-child(3) {
-	margin-top: 0;
-}
 
 /* 10. Contact Us */
 #contact-us label {
@@ -1179,7 +1061,7 @@ a.button:hover {
 #contact-us .section-content .wpcf7-form p input[type="checkbox"] + span {
 	display: inline-block;
 	width: auto;
-    margin-left: 5px;
+	margin-left: 5px;
 }
 
 #contact-us .section-content .wpcf7-form p span.wpcf7-not-valid-tip {
@@ -1428,11 +1310,11 @@ a.button:hover {
 	font-weight: normal;
 }
 #footer .widget table tbody tr td:not(.pad) {
-    color: #eeeeee;
-    padding: 0;
-    border: 3px solid #363636;
-    background-color: transparent;
-    line-height: 24px;
+	color: #eeeeee;
+	padding: 0;
+	border: 3px solid #363636;
+	background-color: transparent;
+	line-height: 24px;
 }
 
 
@@ -1819,15 +1701,15 @@ a.button:hover {
 }
 .widget table#wp-calendar tbody tr td a {
 	display: block;
-    background-color: #f1d204;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    padding: 4px;
-    text-decoration: none;
-    color: #fff;
+	background-color: #f1d204;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	padding: 4px;
+	text-decoration: none;
+	color: #fff;
 }
 .widget table#wp-calendar tbody tr td a:hover {
 	background-color: #6a4d8a;
@@ -1841,9 +1723,9 @@ a.button:hover {
 	font-size: 16px;
 	color: #FFF;
 	position: absolute;
-    top: -1px;
-    left: 0;
-    width: 100%;
+	top: -1px;
+	left: 0;
+	width: 100%;
 }
 
 .widget table tfoot #next {
@@ -1874,10 +1756,10 @@ a.button:hover {
 .widget table td#next a {
 	color: #f1d204;
 	display: block;
-    width: 10px;
-    overflow: hidden;
-    height: 40px;
-    line-height: 40px;
+	width: 10px;
+	overflow: hidden;
+	height: 40px;
+	line-height: 40px;
 }
 .widget table td#prev a:before,
 .widget table td#next a:before {
@@ -1993,15 +1875,15 @@ a.button:hover {
 }
 .widget table#wp-calendar {
 	border-spacing: 4px;
-    border-collapse: separate;
+	border-collapse: separate;
 }
 
 .widget ul li a.rsswidget {
-    display: block;
-    font-size: 20px;
-    font-weight: 700;
-    font-family: "Poppins";
-    line-height: 24px;
+	display: block;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: "Poppins";
+	line-height: 24px;
 }
 .widget_tag_cloud .tagcloud a {
 	font-size: 16px !important;
@@ -2025,19 +1907,19 @@ footer .widget ul li a.rsswidget {
 }
 span.rss-date,
 .post-date {
-    font-size: 12px;
-    font-weight: 400;
-    font-family: "Lato";
-    line-height: 24px;
-    display: block;
+	font-size: 12px;
+	font-weight: 400;
+	font-family: "Lato";
+	line-height: 24px;
+	display: block;
 }
 span.rss-date:before,
 .post-date:before {
 	content: "\f017";
-    font-family: "FontAwesome";
-    color: #f1d204;
-    display: inline-block;
-    margin-right: 5px;
+	font-family: "FontAwesome";
+	color: #f1d204;
+	display: inline-block;
+	margin-right: 5px;
 }
 
 .widget_categories ul li,
@@ -2358,132 +2240,7 @@ span.rss-date:before,
 	transition: all 0.3s;
 }
 
-/* 16. Comments */
-#comments {
-	width: 100%;
-}
 
-#comments #comments-list {
-	width: 100%;
-	margin-bottom: 50px;
-}
-
-#comments #comments-list h3.medium {
-	width: 100%;
-	margin: 0 0 15px 0;
-	line-height: 1.5;
-	font-weight: 700;
-	font-size: 17px;
-	color: #333;
-	text-transform: uppercase;
-}
-
-#comments #comments-list ul.comments {
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}
-
-#comments #comments-list ul.comments .comment {
-	width: 100%;
-}
-
-#comments #comments-list ul.comments .comment > div {
-	margin-bottom: 30px;
-}
-
-#comments #comments-list ul.comments .comment .comment-gravatar {
-	width: 100%;
-}
-
-#comments #comments-list ul.comments .comment .comment-gravatar img {
-	max-width: 100%;
-	height: auto;
-}
-
-#comments #comments-list ul.comments .comment .url {
-	color: #f1d204;
-}
-
-#comments #comments-list ul.comments .comment .comment-entry p {
-	margin: 15px 0;
-	color: #8C9597;
-}
-
-#comments #comments-list ul.comments .comment .comment-reply-link {
-	color: #f1d204;
-}
-
-#comments #comments-list ul.comments .comment ul.children {
-	width: 100%;
-	margin: 0;
-	padding: 0 0 0 40px;
-	list-style-type: none;
-}
-
-#comments #respond {
-	width: 100%;
-}
-
-#comments #respond #reply-title {
-	width: 100%;
-	margin: 0 0 15px 0;
-	line-height: 1.5;
-	font-weight: 700;
-	font-size: 17px;
-	color: #333;
-	text-transform: uppercase;
-}
-
-#comments #respond .comment-form {
-	width: 100%;
-}
-
-#comments #respond .comment-form .comment-notes {
-	display: none;
-}
-
-#comments #respond .comment-form .input-full {
-	width: 100%;
-	margin: 0 0 30px 0;
-}
-
-#comments #respond .comment-form textarea {
-	height: 125px;
-	margin-bottom: 30px;
-	padding: 10px;
-}
-#comments #respond .comment-form textarea::-webkit-input-placeholder {
-	color: #8c9597;
-}
-
-#comments #respond .comment-form textarea::-moz-placeholder {
-	color: #8c9597;
-}
-
-#comments #respond .comment-form textarea:-ms-input-placeholder {
-	color: #8c9597;
-}
-
-#comments #respond .comment-form textarea:-moz-placeholder {
-	color: #8c9597;
-}
-#comments #respond .comment-form input.input-full::-webkit-input-placeholder {
-	color: #8c9597;
-}
-
-#comments #respond .comment-form input.input-full::-moz-placeholder {
-	color: #8c9597;
-}
-
-#comments #respond .comment-form input.input-full:-ms-input-placeholder {
-	color: #8c9597;
-}
-
-#comments #respond .comment-form input.input-full:-moz-placeholder {
-	color: #8c9597;
-}
 
 input[type="text"],
 input[type="email"],
@@ -2510,7 +2267,6 @@ textarea:hover {
 	border-color: #6a4d8a;
 }
 
-#comments #respond .comment-form #input-submit,
 input[type=submit] {
 	width: auto;
 	height: 36px;
@@ -2527,7 +2283,7 @@ input[type=submit] {
 	transition: all 0.3s;
 	border-radius: 3px;
 }
-#comments #respond .comment-form #input-submit:hover,
+
 input[type=submit]:hover,
 #latest-news .latest-news-button:hover,
 #contact-us .section-content .wpcf7-form p .wpcf7-submit:hover,
@@ -2538,10 +2294,6 @@ a.button:hover {
 }
 .bottom-header h2 {
 	color: #fff;
-}
-
-#comments #respond .comment-form #input-submit:hover {
-	opacity: 0.9;
 }
 
 .widget .search-form .search-form-box #searchsubmit {
@@ -2562,8 +2314,8 @@ a.button:hover {
   -webkit-flex-direction: row;
 }
 .top-parallax-section {
-    overflow: hidden;
-    padding: 96px 0;
+	overflow: hidden;
+	padding: 96px 0;
 }
 .mb32,
 p.mb32 {
@@ -2574,7 +2326,7 @@ p.mb32 {
 	margin: 0;
 }
 .bg-secondary {
-    background: #f5f5f5;
+	background: #f5f5f5;
 }
 .border-bottom {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -2583,14 +2335,14 @@ p.mb32 {
 	display: inline-block;
 }
 .illdy_home_parallax .fullscreen {
-    height: 100vh;
+	height: 100vh;
 }
 .illdy_home_parallax .fullscreen .align-transform {
-    position: relative;
-    transform: translate3d(0, -50%, 0);
-    -webkit-transform: translate3d(0, -50%, 0);
-    top: 50%;
-    z-index: 2;
+	position: relative;
+	transform: translate3d(0, -50%, 0);
+	-webkit-transform: translate3d(0, -50%, 0);
+	top: 50%;
+	z-index: 2;
 }
 #full-width .widget.illdy_home_parallax {
 	margin-bottom: 0;
@@ -2664,9 +2416,9 @@ p.mb32 {
 		border-bottom: 1px solid #e4e4e4;
 	}
 	.header-front-page nav ul.sub-menu li a {
-	    border-bottom: 0 none;
-	    padding: 10px;
-	    color: #fff;
+		border-bottom: 0 none;
+		padding: 10px;
+		color: #fff;
 	}
 	.header-front-page nav ul.sub-menu {
 		background-color: #f1d204;
@@ -2807,7 +2559,7 @@ p.mb32 {
 		padding-bottom: 0;
 	}
 	.row.blog-carousel.owl-carousel {
-	    margin: 0;
+		margin: 0;
 	}
 }
 
@@ -2888,8 +2640,8 @@ p.mb32 {
 
 #latest-news {
 	background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 #full-width:before,
@@ -2899,17 +2651,17 @@ p.mb32 {
 #counter:before,
 #services:before,
 #projects:before {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: block;
-    z-index: -101;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	z-index: -101;
 }
 
 .pace-overlay {
@@ -2917,16 +2669,16 @@ p.mb32 {
 }
 
 header#header {
-    position: relative;
+	position: relative;
 }
 .illdy-jumbotron-background,
 .illdy-jumbotron-background #wp-custom-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
 }
 #header .top-header {
 	position: relative;
@@ -2939,10 +2691,10 @@ header#header {
 	z-index: 2;
 }
 .illdy-slider .illdy-slide {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
 }
 .illdy-slider .owl-stage-outer,
 .illdy-slider .owl-stage,
@@ -2950,11 +2702,11 @@ header#header {
 	height: 100%;
 }
 .illdy-slider-navigation {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    z-index: 3;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	z-index: 3;
 }
 .illdy-slider-navigation .illdy-navigation-button {
 	width: 50px;
@@ -2979,47 +2731,47 @@ header#header {
 
 .illdy-jumbotron-background #wp-custom-header iframe,
 .illdy-jumbotron-background #wp-custom-header video {
-    height: 100%;
-    left: 0;
-    -o-object-fit: cover;
-    object-fit: cover;
-    top: 0;
-    -ms-transform: none;
-    -moz-transform: none;
-    -webkit-transform: none;
-    transform: none;
-    width: 100%;
+	height: 100%;
+	left: 0;
+	-o-object-fit: cover;
+	object-fit: cover;
+	top: 0;
+	-ms-transform: none;
+	-moz-transform: none;
+	-webkit-transform: none;
+	transform: none;
+	width: 100%;
 }
 .illdy-jumbotron-background #wp-custom-header-video-button {
-    display: none;
+	display: none;
 }
 .screen-reader-text {
-    clip: rect(1px, 1px, 1px, 1px);
-    height: 1px;
-    overflow: hidden;
-    position: absolute !important;
-    width: 1px;
-    word-wrap: normal !important;
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	overflow: hidden;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
 }
 
 a.illdy-top {
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    display: block;
-    position: fixed;
-    right: 20px;
-    bottom: 30px;
-    background: #000;
-    border-radius: 100%;
-    color: #fff;
-    z-index: 99;
-    opacity: 0;
-    -webkit-transition: opacity 1s ease-in-out;
-  	-moz-transition: opacity 1s ease-in-out;
-  	-ms-transition: opacity 1s ease-in-out;
- 	-o-transition: opacity 1s ease-in-out;
-  	transition: opacity 1s ease-in-out;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	display: block;
+	position: fixed;
+	right: 20px;
+	bottom: 30px;
+	background: #000;
+	border-radius: 100%;
+	color: #fff;
+	z-index: 99;
+	opacity: 0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-ms-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
 }
 a.illdy-top.is-active {
 	opacity: 1;

@@ -7,7 +7,7 @@
  */
 ?>
 <?php get_header(); ?>
-<div class="container">
+<div class="pr-page container">
 	<div class="row">
 		<?php if ( is_active_sidebar( 'page-sidebar' ) ) { ?>
 		<div class="col-sm-8">
